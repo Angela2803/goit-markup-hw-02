@@ -107,6 +107,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .hero-butoon {
@@ -117,6 +118,11 @@ body {
 
 .mission-title {
   color: var(--color-title);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-second-logo);
 }
 
 /* Text <p> */
