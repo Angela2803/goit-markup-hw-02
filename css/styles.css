@@ -31,19 +31,18 @@ body {
 
 /* Logo */
 
-.logo {
-  font-family: "raleway";
+.header-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
-  font-size: 1.33;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var (var(--color-second-logo));
 }
 
 .first-logo {
   color: var(--color-first-logo);
-}
-
-.second-logo {
-  color: var(--color-second-logo);
 }
 
 .first-logo-footer {
