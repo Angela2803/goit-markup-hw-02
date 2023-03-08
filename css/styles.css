@@ -39,11 +39,11 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var (var(--color-second-logo));
+  color: var(--color-first-logo);
 }
 
-.first-logo {
-  color: var(--color-first-logo);
+.second-logo {
+  color: var(--color-second-logo);
 }
 
 .first-logo-footer {
@@ -58,6 +58,14 @@ body {
 
 .header {
   background-color: var(--color-cornflower);
+}
+
+.header-item:is(:hover, :focus) {
+  color: var(--color-ol-btns);
+}
+
+.header-address {
+  font-style: normal;
 }
 
 .hero {
@@ -77,8 +85,12 @@ body {
   line-height: 1.5px;
   letter-spacing: 0.02em;
   color: var(--color-text);
+  line-height: 1.5;
 }
 
+.header-mail-tel:is(:hover :focus) {
+  color: var(--color-ol-btns);
+}
 .hero-title {
   font-weight: 700;
   font-size: 56px;
