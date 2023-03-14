@@ -38,6 +38,7 @@ body {
 /* Стили для index.html */
 
 /* Шапка */
+
 /* Логотип */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -54,7 +55,7 @@ body {
   color: var(--second-logo-color);
 }
 
-/* Новигация */
+/* Навигация */
 
 .site-nov .link {
   color: var(--first-title-color);
@@ -89,16 +90,9 @@ body {
 
 /* Текст тега <p> */
 
-/* Cекция 3 */
-
-.team-list .title {
-  color: var(--first-title-color);
-}
-
-/* Кнопки */
-.button {
-  color: var(--white-color);
-  background-color: var(--second-text-color);
+.text {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /* Footer */
@@ -111,7 +105,19 @@ body {
   color: var(--second-text-color);
 }
 
-/* Секция Портфолио */
+/* Стили для portfoloi.html */
+
+/* Кнопки */
+
+.button {
+  color: var(--hero-button-color);
+  background-color: var(--second-text-color);
+}
+
+.button:is(:hover, :focus) {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
 
 .portfolio-list .title {
   color: var(--first-title-color);
