@@ -215,9 +215,19 @@ body {
 
 /* Кнопки */
 
+.portfolio-section {
+  background-color: var(--white-color);
+}
+
 .button {
   color: var(--hero-button-color);
   background-color: var(--second-text-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .button:is(:hover, :focus) {
@@ -226,3 +236,18 @@ body {
 }
 
 /* Портфолио */
+
+.portfolio-list .title {
+  color: var(--first-title-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-list .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
