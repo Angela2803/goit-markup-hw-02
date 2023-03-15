@@ -35,6 +35,10 @@ body {
   text-decoration: none;
 }
 
+.second-logo {
+  text-transform: uppercase;
+}
+
 /* Стили для index.html */
 
 /* Шапка */
