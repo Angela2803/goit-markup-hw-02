@@ -115,7 +115,7 @@ body {
   cursor: pointer;
 }
 
-.hero-button :hover {
+.hero-button:hover {
   color: var(--accent-color);
 }
 .hero-button:focus {
