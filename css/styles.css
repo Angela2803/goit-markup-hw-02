@@ -57,17 +57,17 @@ body {
 
 /* Навигация */
 
-.site-nov .link {
+.header-link .link {
   color: var(--first-title-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.link-nov:hover {
+.header-link :hover {
   color: var(--accent-color);
 }
-.link-nov:focus {
+.header-link :focus {
   color: var(--accent-color);
 }
 
