@@ -64,7 +64,10 @@ body {
   line-height: 1.5;
 }
 
-.site-nov:is(:hover, :focus) {
+.site-nov:hover {
+  color: var(--accent-color);
+}
+.site-nov:focus {
   color: var(--accent-color);
 }
 
