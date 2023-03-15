@@ -149,15 +149,15 @@ body {
   background-color: var(--white-color);
 }
 
-.work-section .title {
+.work-section .first-title {
   color: var(--first-title-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
+/* Секция 4 */
 
 /* Footer */
 
