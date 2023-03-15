@@ -124,6 +124,10 @@ body {
 
 /* Секция 2 */
 
+.mission-section {
+  background-color: var(--white-color);
+}
+
 .mission-list .title {
   color: var(--first-title-color);
   font-weight: 500;
