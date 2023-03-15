@@ -71,7 +71,7 @@ body {
   color: var(--accent-color);
 }
 
-.address {
+.header-address {
   font-style: normal;
 }
 
@@ -81,7 +81,11 @@ body {
   line-height: 1.5;
 }
 
-.address-nav:is(:hover, :focus) {
+.address-nav :hover {
+  color: var(--accent-color);
+}
+
+.address-nav :focus {
   color: var(--accent-color);
 }
 
