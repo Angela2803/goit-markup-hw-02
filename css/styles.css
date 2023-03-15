@@ -149,7 +149,7 @@ body {
   background-color: var(--white-color);
 }
 
-.work-section .first-title {
+.work-list .first-title {
   color: var(--first-title-color);
   font-weight: 700;
   font-size: 36px;
@@ -159,14 +159,44 @@ body {
 
 /* Секция 4 */
 
+.team-section {
+  background-color: var(--second-text-color);
+}
+
+.team-list .title {
+  color: var(--first-title-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-list .text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /* Footer */
+
+.footer-section {
+  background-color: var(--first-title-color);
+}
 
 .footer-logo {
   color: var(--first-logo-color);
 }
 
-.footer .second-logo {
+.footer-section .second-logo {
   color: var(--second-text-color);
+}
+
+.footer-text {
+  color: var(--second-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Стили для portfoloi.html */
