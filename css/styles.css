@@ -64,10 +64,10 @@ body {
   line-height: 1.5;
 }
 
-.site-nov:hover {
+.link-nov:hover {
   color: var(--accent-color);
 }
-.site-nov:focus {
+.link-nov:focus {
   color: var(--accent-color);
 }
 
