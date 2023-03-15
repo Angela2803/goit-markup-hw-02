@@ -129,21 +129,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-/* Заголовки h3 */
-.secondary-title {
-  color: var(--first-title-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-/* Текст тега <p> */
-
-.text {
+.mission-list .text {
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Footer */
