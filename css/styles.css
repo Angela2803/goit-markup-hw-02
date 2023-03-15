@@ -44,7 +44,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -64,10 +64,22 @@ body {
   line-height: 1.5;
 }
 
+.site-nov:is(:hover, :focus) {
+  color: var(--accent-color);
+}
+
+.address {
+  font-style: normal;
+}
+
 .address-nav .navigation {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
+}
+
+.address-nav:is(:hover, :focus) {
+  color: var(--accent-color);
 }
 
 /* Заголовки  h2*/
@@ -119,10 +131,4 @@ body {
   background-color: var(--accent-color);
 }
 
-.portfolio-list .title {
-  color: var(--first-title-color);
-}
-
-.portfolio-list .text {
-  color: var(--primary-text-color);
-}
+/* Портфолио */
