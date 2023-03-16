@@ -175,6 +175,16 @@ body {
   text-transform: capitalize;
 }
 
+.team-list {
+  background-color: var(--white-color);
+}
+
+.team-list .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
 .team-list .text {
   color: var(--primary-text-color);
   font-size: 16px;
