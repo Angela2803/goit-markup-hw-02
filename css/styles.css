@@ -104,7 +104,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.hero-butoon {
+.hero-button {
   color: var(--white-color);
   background-color: var(--hero-button-color);
   font-family: "Roboto", sans-serif;
