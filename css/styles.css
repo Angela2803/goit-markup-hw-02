@@ -162,8 +162,11 @@ body {
 
 /* Секция 4 */
 
+.team-section {
+  background-color: var(--second-text-color);
+}
+
 .team-list .title {
-  background-color: var(--white-color);
   color: var(--second-logo-color);
   font-size: 36px;
   line-height: 1.11;
@@ -179,13 +182,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-
-.team-list .title {
-  background-color: var(--white-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
 }
 
 .team-list .text {
