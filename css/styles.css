@@ -166,6 +166,10 @@ body {
   background-color: var(--second-text-color);
 }
 
+.team-list {
+  background-color: var(--white-color);
+}
+
 .team-list .title {
   color: var(--first-title-color);
   font-weight: 500;
