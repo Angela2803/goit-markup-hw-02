@@ -166,7 +166,7 @@ body {
   background-color: var(--second-text-color);
 }
 
-.team-list .title {
+.team-section .title {
   color: var(--first-title-color);
   font-size: 36px;
   line-height: 1.11;
