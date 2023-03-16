@@ -200,10 +200,6 @@ body {
   background-color: var(--first-title-color);
 }
 
-.footer-section .second-logo {
-  color: var(--second-text-color);
-}
-
 .footer-section .text {
   color: var(--second-text-color);
   font-size: 16px;
