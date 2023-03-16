@@ -131,9 +131,11 @@ body {
 .mission-list .title {
   color: var(--first-title-color);
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .mission-list .text {
@@ -151,9 +153,11 @@ body {
 
 .work-list .first-title {
   color: var(--first-title-color);
-  font-weight: 700;
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
