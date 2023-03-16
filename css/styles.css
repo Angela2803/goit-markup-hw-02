@@ -46,14 +46,12 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .header-logo {
   color: var(--first-logo-color);
 }
 .second-logo {
   color: var(--second-logo-color);
-  text-transform: uppercase;
 }
 
 /* Навигация */
