@@ -170,20 +170,20 @@ body {
   background-color: var(--white-color);
 }
 
-.team-list .title {
+.team-section .title {
   color: var(--first-title-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
-.team-section .title {
+.team-list .title {
   color: var(--first-title-color);
-  font-size: 36px;
-  line-height: 1.11;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -209,6 +209,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.second-logo {
+  color: var(--second-text-color);
 }
 
 /* Стили для portfoloi.html */
