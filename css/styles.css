@@ -52,7 +52,7 @@ body {
   color: var(--first-logo-color);
 }
 .second-logo {
-  color: var(--second-logo-color);
+  color: var(--first-title-color);
 }
 
 /* Навигация */
