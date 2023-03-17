@@ -37,7 +37,7 @@ body {
 
 /* Стили для index.html */
 
-/* Шапка */
+/* Секция Header  */
 
 /* Логотип */
 .logo {
@@ -52,7 +52,7 @@ body {
   color: var(--first-logo-color);
 }
 .second-logo {
-  color: var(--first-title-color);
+  color: var(--second-logo-color);
 }
 
 /* Навигация */
@@ -116,10 +116,10 @@ body {
 }
 
 .hero-button:hover {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 .hero-button:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 /* Секция 2 */
